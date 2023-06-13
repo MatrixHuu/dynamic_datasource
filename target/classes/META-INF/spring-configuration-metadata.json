@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "com.javaboy.dd.datasource.DruidProperties",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.ds",
+      "type": "java.util.Map<java.lang.String,java.util.Map<java.lang.String,java.lang.String>>",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.String",
+      "sourceType": "com.javaboy.dd.datasource.DruidProperties"
+    }
+  ],
+  "hints": []
+}

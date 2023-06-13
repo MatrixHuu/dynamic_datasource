@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.javaboy.dd.DynamicDatasourceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.619 s <<< FAILURE! - in com.javaboy.dd.DynamicDatasourceApplicationTests
+contextLoads  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamicDatasourceApplication': BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: org$javavboy$dd$annotation$DataSource
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: org$javavboy$dd$annotation$DataSource
+Caused by: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: org$javavboy$dd$annotation$DataSource
+

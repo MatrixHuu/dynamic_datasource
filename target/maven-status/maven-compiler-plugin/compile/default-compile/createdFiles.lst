@@ -1,0 +1,11 @@
+com\javaboy\dd\model\User.class
+com\javaboy\dd\datasource\DruidProperties.class
+com\javaboy\dd\annotation\DataSource.class
+com\javaboy\dd\datasource\DynamicDataSource.class
+com\javaboy\dd\service\UserService.class
+com\javaboy\dd\datasource\DynamicDataSourceContextHolder.class
+com\javaboy\dd\DynamicDatasourceApplication.class
+com\javaboy\dd\aspect\DataSourceAspect.class
+com\javaboy\dd\datasource\LoadDataSource.class
+com\javaboy\dd\datasource\DataSourceType.class
+com\javaboy\dd\mapper\UserMapper.class
