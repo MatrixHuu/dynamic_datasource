@@ -27,7 +27,7 @@ public class DataSourceAspect {
     }
 
     @Around("pc()")
-    public Object around(ProceedingJoinPoint pjp) {
+    public Object around(ProceedingJoinPoint pjp) throws Throwable {
         DataSource dataSource = getDadaSource(pjp);
         if (dataSource != null) {
             String value = dataSource.value();
@@ -37,10 +37,10 @@ public class DataSourceAspect {
             return pjp.proceed();
         } catch (Throwable throwable) {
             throwable.printStackTrace();
+            throw throwable;
         } finally {
             DynamicDataSourceContextHolder.clearDataSourceType();
         }
-        return null;
     }
 
     private DataSource getDadaSource(ProceedingJoinPoint pjp) {

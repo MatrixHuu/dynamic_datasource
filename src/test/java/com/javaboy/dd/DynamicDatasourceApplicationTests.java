@@ -17,6 +17,11 @@ class DynamicDatasourceApplicationTests {
     UserService userService;
 
     @Test
+    void test01() {
+        userService.test();
+    }
+
+    @Test
     void contextLoads() {
         List<User> list = userService.getAllUsers();
         for (User user : list) {

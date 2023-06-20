@@ -19,9 +19,9 @@ import javax.servlet.http.HttpSession;
  * @data 2023/6/13 20:15
  */
 
-@Aspect
-@Component
-@Order(10)
+//@Aspect
+//@Component
+//@Order(10)
 public class GlobalDataSourceAspect {
 
     @Autowired
